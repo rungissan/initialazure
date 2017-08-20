@@ -1,18 +1,25 @@
 {
   "name": "botservice",
   "version": "1.0.0",
-  "description": "my ot",
-  "main": "index.js",
+  "description": "my bot",
+  "private": true,
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
   },
   "keywords": [
     "bot"
   ],
   "author": "yury",
-  "license": "ISC",
+  "license": "Apache",
+  "engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  },
   "dependencies": {
     "botbuilder": "^3.9.0",
     "restify": "^5.2.0"
   }
 }
+
+
