@@ -41,11 +41,11 @@ intents.onDefault('/confused');
 const bot = new builder.UniversalBot(connector, {
     persistConversationData: true
 });
-bot.library(locationDialog.createLibrary('MS0ktNotOqNdjaTgJZ2o~apVPV9Uqycm9RPuKfUnYbw~AjCxFU1c4GJT_fIAnAEmCyIv-n5P-2g_Diy1lfbUPx99QwQJKpVcufwH_XLPJyYA'));
+//bot.library(locationDialog.createLibrary('MS0ktNotOqNdjaTgJZ2o~apVPV9Uqycm9RPuKfUnYbw~AjCxFU1c4GJT_fIAnAEmCyIv-n5P-2g_Diy1lfbUPx99QwQJKpVcufwH_XLPJyYA'));
 
 
 bot.dialog('/', intents);
-dialog.welcome(bot);
+//dialog.welcome(bot);
 bot.dialog('/confused', [
     function (session, args, next) {
         // ToDo: need to offer an option to say "help"
