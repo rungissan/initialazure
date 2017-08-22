@@ -31,7 +31,7 @@ var intents = new builder.IntentDialog({
     intentThreshold: 0.2,
     recognizeOrder: builder.RecognizeOrder.series
 });
-intents.matches('Greeting','/welcome');
+intents.matches('Greetings2','/welcome');
 //intents.matches('Reset', '/reset');
 //intents.matches('Delete', '/delete');
 intents.matches('Smile', '/smileBack');
