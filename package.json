@@ -13,9 +13,6 @@
   ],
   "author": "yury",
   "license": "Apache",
-  "engines": {
-    "node": "~8.2.1"
-  },
   "dependencies": {
     "botbuilder": "^3.9.0",
     "botbuilder-location": "^2.0.0",
