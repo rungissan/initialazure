@@ -4,7 +4,6 @@
   "description": "my bot",
   "private": true,
   "main": "server.js",
-  "engines":{"node": "8.2.1"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server"
@@ -15,7 +14,7 @@
   "author": "yury",
   "license": "Apache",
   "engines": {
-    "node": "~0.10.0 || ~4.2.0"
+    "node": "~8.2.1"
   },
   "dependencies": {
     "botbuilder": "^3.9.0",
