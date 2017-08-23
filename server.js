@@ -1,3 +1,9 @@
+var http = require('http');
+ http.createServer(function(req,res) {
+   res.writeHead(200, {'Content-Type': 'text/html'});
+   res.end('Hello from Azure running node version: ' + process.version + '</br>');
+ }).listen(process.env.PORT || 3000);
+/*
 // require('dotenv-extended').load();
 var restify = require('restify');
 var builder = require('botbuilder');
@@ -66,4 +72,4 @@ server.post('/api/messages', connector.listen());
 // Receive messages from the user and respond by echoing each message back (prefixed with 'You said:')
 //var bot = new builder.UniversalBot(connector, function (session) {
   //  session.send("You said: %s", session.message.text);
-//});
+//}); */
